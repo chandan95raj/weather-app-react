@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+.weather-app {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.weather-app h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.form-control, .btn {
+    border-radius: 30px;
+}
+.weather-info {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+.weather-info h5 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+.weather-info p {
+    margin: 5px 0;
+}
+.weather-icon {
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+}
